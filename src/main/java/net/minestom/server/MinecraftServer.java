@@ -117,12 +117,12 @@ public final class MinecraftServer {
     private static boolean started;
     private static volatile boolean stopping;
 
-    private static int chunkViewDistance = Integer.getInteger("minestom.chunk-view-distance", 8);
+    private static int chunkViewDistance = Integer.getInteger("minestom.chunk-view-distance", 16);
     private static int entityViewDistance = Integer.getInteger("minestom.entity-view-distance", 5);
     private static int compressionThreshold = 256;
     private static boolean terminalEnabled = System.getProperty("minestom.terminal.disabled") == null;
     private static ResponseDataConsumer responseDataConsumer;
-    private static String brandName = "Minestom";
+    private static String brandName = "MalinaServer";
     private static Difficulty difficulty = Difficulty.NORMAL;
     private static TagManager tagManager;
 
